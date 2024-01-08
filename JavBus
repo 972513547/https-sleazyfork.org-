@@ -100,7 +100,7 @@
             * */
             //1.调整主内容的布局
             const main_wrapper_div = document.getElementById("wp");
-            main_wrapper_div.style.cssText = "width: 80%; min-width: 0; padding: 0;";
+            main_wrapper_div.style.cssText = "width: 150%; min-width: 0; padding: 0;";
             const main_div = document.getElementsByClassName("mn")[0];
             main_div.style.cssText = "width: 80%; min-width: 0; padding: 0;";
             //2.删除层级导航栏
