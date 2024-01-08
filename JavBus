@@ -2,7 +2,7 @@
 // @name         JavBus论坛移动端界面适配kokoa改
 // @namespace    https://github.com/Steven-Fake/JavBus-forum-mobile-layout
 // @homepageURL  https://sleazyfork.org/zh-CN/users/1140711-steven-fake
-// @version      1.1.1
+// @version      1.1.3
 // @license      MIT
 // @description  使司机社(JavBus)的论坛适应移动端界面
 // @author       Steven-Fake
@@ -100,9 +100,9 @@
             * */
             //1.调整主内容的布局
             const main_wrapper_div = document.getElementById("wp");
-            main_wrapper_div.style.cssText = "width: 150%; min-width: 0; padding: 0;";
+            main_wrapper_div.style.cssText = "width: 115%; min-width: 0; padding: 0;";
             const main_div = document.getElementsByClassName("mn")[0];
-            main_div.style.cssText = "width: 80%; min-width: 0; padding: 0;";
+            main_div.style.cssText = "width: 70%; min-width: 0; padding: 0;";
             //2.删除层级导航栏
             if (pageType === "post") {
                 document.getElementById("pt").children[0].remove();
