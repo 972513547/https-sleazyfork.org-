@@ -100,9 +100,9 @@
             * */
             //1.调整主内容的布局
             const main_wrapper_div = document.getElementById("wp");
-            main_wrapper_div.style.cssText = "width: 100%; min-width: 0; padding: 0;";
+            main_wrapper_div.style.cssText = "width: 80%; min-width: 0; padding: 0;";
             const main_div = document.getElementsByClassName("mn")[0];
-            main_div.style.cssText = "width: 100%; min-width: 0; padding: 0;";
+            main_div.style.cssText = "width: 80%; min-width: 0; padding: 0;";
             //2.删除层级导航栏
             if (pageType === "post") {
                 document.getElementById("pt").children[0].remove();
@@ -161,7 +161,7 @@
                 let imgs = post_td[i].getElementsByTagName("img");
                 for (let j = 0; j < imgs.length; j++) {
                     if (!imgs[j].src.includes("/static/image/smiley/")) {//不调整表情图片
-                        imgs[j].style.cssText = "width: 100%; height: auto;";
+                        imgs[j].style.cssText = "width: 80%; height: auto;";
                     }
                 }
             }
